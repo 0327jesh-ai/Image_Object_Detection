@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights (large files)
+*.weights
+
+# OS files
+.DS_Store
+Thumbs.db
