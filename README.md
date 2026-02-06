@@ -43,12 +43,12 @@ Image_Object_Detection/
 │ └── yolov4.weights # Pretrained weights
 └── venv/ # Python virtual environment
 
-### 🎥 Pedestrian.mp4
+### Pedestrian.mp4
 - Input video file
 - Contains pedestrians and crowded public scenes
 - Used for object detection testing
 
-### 🐍 detect_people.py
+### detect_people.py
 - Main Python script of the project
 - Loads YOLOv4 model and COCO classes
 - Reads video frame by frame
@@ -56,13 +56,13 @@ Image_Object_Detection/
 - Draws bounding boxes and labels
 - Displays the output video
 
-### 📄 coco.names
+### coco.names
 - Text file containing **80 object class names**
 - Based on COCO dataset
 - Includes: person, car, bus, handbag, backpack, etc.
 - YOLO uses this file to assign labels to detected objects
 
-### 📁 yolov4/
+### yolov4/
 This folder stores YOLOv4 model files.
 
 #### yolov4.cfg
@@ -75,14 +75,14 @@ This folder stores YOLOv4 model files.
 - Trained on COCO dataset
 - Used to detect objects without training from scratch
 
-### 🧪 venv/
+###  venv/
 - Python virtual environment
 - Keeps project dependencies isolated
 - Avoids package conflicts with system Python
 
 ---
 
-## ⚙️ Execution Flow (Simple)
+## Execution Flow (Simple)
 
 1. Load YOLOv4 config and weights
 2. Load class labels from coco.names
